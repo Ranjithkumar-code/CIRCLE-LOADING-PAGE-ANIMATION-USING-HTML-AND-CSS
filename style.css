@@ -1,0 +1,48 @@
+body{
+	background-color: #8566;
+}
+
+.circle{
+	margin: 200px auto;
+	width: 40px;
+	height: 40px;
+	border: 5px solid rgba(255,255,0,2);
+	border-radius: 50%;
+	border-top-color: white;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    100%{
+		transform: rotate(360deg);
+	}
+} 
+
+.container{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+}
+.dot{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+}
+.dot1{
+    background-color: aquamarine;
+    animation: flop-up 0.6s infinite;
+}
+.dot2{
+    background-color: aqua;
+}
+.dot3{
+    background-color: blue;
+}
+@keyframes flop-up{
+    transform: typing;
+}
